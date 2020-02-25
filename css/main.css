@@ -1,0 +1,162 @@
+/* Global Settings */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 20px;
+}
+
+/* Header */
+
+.about-store ul li {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  float: left;
+  padding: 12px;
+  font-size: 13px;
+}
+
+.gmail-images-icons ul li {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  right: 10px;
+  float: right;
+  padding: 12px;
+  font-size: 13px;
+}
+
+a:hover {
+  color: #616060;
+  text-decoration: underline;
+}
+
+/* Google Logo Area */
+
+#google-logo .google {
+  width: 400px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Input Box */
+
+.input-box input {
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 66px;
+  right: 40px;
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box;
+  outline-width: 0;
+  border: solid 1px lightgray;
+  -webkit-box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+box-shadow: -1px 3px 5px -2px rgba(0,0,0,0.75);
+}
+
+.fa-search {
+  color: lightgray;
+  position: relative;
+  bottom: 95px;
+  left: 730px;
+}
+
+.fa-microphone {
+  color: blue;
+  position: relative;
+  bottom: 95px;
+  left: 1070px;
+}
+
+/* button { 
+  /* position: relative; */
+  /* left: 810px; */
+  /* bottom: 70px; */
+  /* background-color: #f2f2f2; */
+  /* border: none; */
+  /* border-radius: 5px; */
+  /* padding: 5px; */
+  /* margin: 3px; */
+  /* cursor: pointer; */
+
+
+.button-1 {
+  position: relative; 
+  left: -50px;
+  bottom: 70px;
+  max-width: 300px;
+  max-height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 3px;
+  background-color: #f2f2f2;
+}
+
+.button-2 {
+  position: relative; 
+  left: -30px;
+  bottom: 70px;
+  max-width: 300px;
+  max-height: 40px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin: 3px;
+   background-color: #f2f2f2;
+}
+
+#button-container {
+  text-align: center;  
+}
+
+/* footer */
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: #edf2ef;
+}
+
+.advertising-business-search ul li {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  float: left;
+  padding: 12px;
+  font-size: 13px;
+}
+
+.terms ul li {
+  display: inline-block;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  float: right;
+  padding: 12px;
+  font-size: 13px;
+}
